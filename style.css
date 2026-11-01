@@ -1,0 +1,5 @@
+:root{--bg:#fbfbfa;--fg:#1f1f1f;--muted:#5c5c5c;--accent:#c0392b}
+@media (prefers-color-scheme:dark){:root{--bg:#161616;--fg:#ececec;--muted:#a8a8a8;--accent:#e06b5e}}
+body{background:var(--bg);color:var(--fg);font:16px/1.7 "Malgun Gothic","Apple SD Gothic Neo",sans-serif;margin:0;padding:40px 16px}
+main{max-width:680px;margin:0 auto}h1{font-size:1.6em;margin:0 0 .4em}h2{font-size:1.15em;margin-top:1.8em}
+.muted{color:var(--muted);font-size:.9em}a{color:var(--accent)}
